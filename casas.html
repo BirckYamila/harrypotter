@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap" rel="stylesheet">
+    <title>Casas</title>
+
+<style>
+
+body {
+            background-image: url(img/23853-harry-potter.jpg);
+            background-size: cover;
+        }
+
+    a:visited{
+        color: white;
+    }
+
+    .titulo-casas{
+        color: white;
+        font-family: 'Bigelow Rules', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 80px;
+        text-align: center;
+    }
+    .index-personajes{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: large;
+    }
+    .section-casas{
+        background-image: url(img/23853-harry-potter.jpg);
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .casas-hogwarts{
+        background-color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        width: fit-content;
+        padding: 10px;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        border: 2px solid black;
+        margin: 3px;
+        border-radius: 10px;
+    }
+    .escudos{
+        width: 300px;
+        height: 350px;
+    }
+
+
+</style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-casas">Casas de Hogwarts</h1>
+        <div class="index-personajes">
+            <a href="./index.html">Inicio</a>
+            <a href="./personajes.html">Personajes</a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="section-casas">
+            <div class="casas-hogwarts">
+                <h2 id="Gryff">Gryffindor</h2>
+                <img src="./img/Escudo_gryffindor.jpg" alt="Imágen no encontrada" class="escudos">
+                <p>Gryffindor es reconocida por: </p>
+                 <h4>Miembros destacados:</h4>
+                <li><a href="personajes.html#Harry_Potter">Harry Potter</a></li>
+            </div>
+
+            <div class="casas-hogwarts">
+                <h2 id="Huffle">Hufflepuff</h2>
+                <img src="./img/escudo_hufflepuff.jpg" alt="Imágen no encontrada" class="escudos">
+                <p>Hufflepuff es reconocida por: </p>
+                <h4>Miembros destacados:</h4>
+                <li><a href="personajes.html#Cedric_Diggory">Cedric Diggory</a></li>
+            </div>
+
+            <div class="casas-hogwarts">
+                <h2 id="Raven">Ravenclaw</h2>
+                <img src="./img/escudo_ravenclaw.jpg" alt="Imágen no encontrada" class="escudos">
+                <p>Ravenclaw es reconocida por: </p>
+                <h4>Miembros destacados:</h4>
+                <li><a href="personajes.html#Luna_Lovegood">Luna Lovegood</a></li>
+            </div>
+
+            <div class="casas-hogwarts">
+                <h2 id="Slyt">Slytherin</h2>
+                <img src="./img/escudo_slytherin.jpg" alt="Imágen no encontrada" class="escudos">
+                <p>Slytherin es reconocida por: </p>
+                <h4>Miembros destacados:</h4>
+                <li><a href="personajes.html#Draco_Malfoy">Draco Malfoy</a></li>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
